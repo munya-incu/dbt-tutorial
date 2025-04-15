@@ -17,7 +17,7 @@ orders as (
         order_date,
         status
 
-    from `za-tech-in-munyaradzi.DBT_Training.RAW_usr.orders`
+    from `za-tech-in-munyaradzi.DBT_Training.orders`
 
 ),
 
