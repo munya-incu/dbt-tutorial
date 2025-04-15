@@ -5,7 +5,7 @@ with customers as (
         first_name,
         last_name
 
-    from `dbt-tutorial`.jaffle_shop.customers
+    from `za-tech-in-munyaradzi.DBT_Training.customers`
 
 ),
 
@@ -17,7 +17,7 @@ orders as (
         order_date,
         status
 
-    from `dbt-tutorial`.jaffle_shop.orders
+    from `za-tech-in-munyaradzi.DBT_Training.RAW_usr.orders`
 
 ),
 
@@ -52,4 +52,4 @@ final as (
 
 )
 
-select * from final
+select * from final 
